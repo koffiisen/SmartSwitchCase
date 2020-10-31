@@ -12,6 +12,7 @@ with open("README.md", "r") as fh:
         long_description=long_description,
         long_description_content_type='text/markdown',
         url="https://github.com/koffiisen/SmartSwitchCase",
+        download_url='https://github.com/koffiisen/SmartSwitchCase/raw/main/archive/smartswitchcase_1.0.tar.gz.001',
         keywords=['Switch', "Case", "Switch Case", "switch case", "switch", "case",
                   "python switch case", "Python switch case", "python switch",
                   "python library", "python libraries", "python switch case library",
