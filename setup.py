@@ -7,6 +7,7 @@ with open("README.md", "r") as fh:
         version='1.0',
         author="Joel Koffi ONIPOH",
         author_email="koffi_joel.onipoh@isen.yncrea.fr",
+        license='MIT',
         description="Python libraries of implementation of Switch Case",
         long_description=long_description,
         long_description_content_type='text/markdown',
@@ -15,7 +16,7 @@ with open("README.md", "r") as fh:
                   "python switch case", "Python switch case", "python switch",
                   "python library", "python libraries", "python switch case library",
                   "Python Switch Case example"],
-        packages=find_packages(),
+        packages=['smartswitchcase'],
         python_requires='>=2.7',
         include_package_data=False,
         classifiers=[
