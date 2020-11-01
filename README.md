@@ -97,7 +97,7 @@ swc.case(Case(9, lambda: 999))
 swc.default(lambda: "I'm ... Default")
 # Run
 swc.exc()
-# If you statement return a result you can get her after execution
+# If your statement return a result you can get her after execution
 result = swc.result()
 # Show the result
 print(result)
@@ -118,7 +118,7 @@ swc.case(Case([78, 17, 98], lambda: "[78, 17, 98] Match with [1, 2, 3, 4, 5]"))
 swc.default(lambda: "I'm ... Default [1, 2, 3, 4, 5]")
 # Run
 swc.exc()
-# If you statement return a result you can get her after execution
+# If your statement return a result you can get her after execution
 result = swc.result()
 # Show the result
 print(result)
@@ -145,7 +145,7 @@ swc.case(Case({"data": {"1": {"name": "PyPi"}, "2": {"name": "Github & Python"},
 swc.case(Case({"data": {"1": {"name": "Dict"}, "2": {"name": "Github & Python"}, }}, lambda: "Maybe 5"))
 # Run
 swc.exc()
-# If you statement return a result you can get her after execution
+# If your statement return a result you can get her after execution
 result = swc.result()
 # Show the result
 print(result)
